@@ -23,7 +23,7 @@ LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "0") or 0)
 
 DATABASE_PATH = "data/lunii.db"
 SYNC_SLASH_ON_START = True
-PRESENCE_TEXT = "{prefix}help | FX DEVELOPMENT"
+PRESENCE_TEXT = "{prefix}help | Ara Ara >,<"
 
 ACCENT = 0xFFD9C9
 ACCENT_OK = 0xA8E6C9
@@ -31,7 +31,7 @@ ACCENT_ERR = 0xFF8FA3
 ACCENT_WARN = 0xFFD98A
 ACCENT_INFO = 0xFFE3D6
 
-EMOJI_PREFIX = "lunii_"
+EMOJI_PREFIX = "yuriona"
 
 CURRENCY = "coins"
 START_CASH = 500

@@ -27,7 +27,14 @@ class EmojiMap:
             self._data = {}
 
     def get(self, key, default=""):
-        return self._data.get(str(key).upper(), default)
+        key = str(key).upper()
+
+        custom = {
+            "LOGO": "<:yuriona_logo:1575025325287542884>",
+            "COIN": "<:yuriona_coin:1575025074707107960>",
+        }
+
+        return custom.get(key, self._data.get(key, default))
 
     def __call__(self, key, default=""):
         return self.get(key, default)
@@ -36,7 +43,7 @@ class EmojiMap:
         return self.get(key)
 
     def __contains__(self, key):
-        return str(key).upper() in self._data
+        return bool(self.get(key))
 
     def __getattr__(self, key):
         if key.startswith("_"):

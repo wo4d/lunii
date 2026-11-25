@@ -25,15 +25,15 @@ DATABASE_PATH = "data/lunii.db"
 SYNC_SLASH_ON_START = True
 PRESENCE_TEXT = "{prefix}help | Ara Ara >,<"
 
-ACCENT = 0xFFD9C9
-ACCENT_OK = 0xA8E6C9
+ACCENT = 0xFFB6D9
+ACCENT_OK = 0xB8EFCB
 ACCENT_ERR = 0xFF8FA3
-ACCENT_WARN = 0xFFD98A
-ACCENT_INFO = 0xFFE3D6
+ACCENT_WARN = 0xFFE0A3
+ACCENT_INFO = 0xDCC6FF
 
 EMOJI_PREFIX = "yuriona"
 
-CURRENCY = "coins"
+CURRENCY = "yuri coins"
 START_CASH = 500
 BANK_BASE_CAP = 5000
 BANK_UPGRADE_COST_RATIO = 0.4
@@ -117,12 +117,12 @@ EXTENSIONS = [
 FONT_DIR = "fonts"
 CARDS_ENABLED = True
 CARD_THEME = {
-    "bg_top": (255, 240, 231),
-    "bg_bottom": (255, 214, 203),
+    "bg_top": (255, 235, 245),
+    "bg_bottom": (255, 205, 225),
     "surface": (255, 255, 255),
-    "ink": (122, 64, 66),
-    "muted": (178, 128, 124),
-    "accent": (255, 166, 150),
-    "accent_soft": (255, 226, 216),
-    "track": (248, 218, 209),
+    "ink": (120, 65, 95),
+    "muted": (180, 125, 155),
+    "accent": (255, 145, 190),
+    "accent_soft": (255, 220, 235),
+    "track": (250, 210, 230),
 }

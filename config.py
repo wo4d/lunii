@@ -9,8 +9,8 @@ def _ids(raw):
     return {int(x) for x in raw.replace(" ", "").split(",") if x.isdigit()}
 
 
-BOT_NAME = "Lunii"
-TAGLINE = "A little world of coins & chaos"
+BOT_NAME = "Yuriona"
+TAGLINE = "Yuriona sitting in a magical Garden"
 VERSION = "1.0.0"
 
 TOKEN = os.getenv("TOKEN", "")
